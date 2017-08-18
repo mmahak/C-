@@ -1,0 +1,17 @@
+using System;
+namespace A_Second_Simple_Program
+{
+    class Program
+    {
+        static void Main()
+        {
+            int x;
+            int y;
+            x = 100;
+            Console.WriteLine("x Contains"+x);
+            y = x / 2;
+            Console.Write("x/2 :" );
+            Console.WriteLine(x);
+        }
+    }
+}
