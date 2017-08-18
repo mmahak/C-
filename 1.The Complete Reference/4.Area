@@ -1,0 +1,15 @@
+using System;
+namespace Area
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double area;
+            double radius;
+            radius = 10.23;
+            area = radius * radius * 3.1416;
+            Console.WriteLine("AREA is:"+area);
+        }
+    }
+}
