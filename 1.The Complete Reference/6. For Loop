@@ -1,0 +1,16 @@
+using System;
+namespace For_Loop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int count;
+            for(count=0;count<=5;count++)
+
+             Console.WriteLine("This is count:"+count);
+
+            Console.WriteLine("Done!");
+        }
+    }
+}
